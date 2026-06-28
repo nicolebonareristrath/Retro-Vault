@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery · The Retro Vault</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <span>EST. 1920 · THE FINEST COLLECTION OF CLASSIC MEDIA</span>
+    <span>NAIROBI, KENYA</span>
+  </div>
+
+  <nav class="navbar navbar-expand-lg main-nav">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand nav-logo" href="index.html">the retro <span>VAULT</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="films.html">FILMS</a></li>
+          <li class="nav-item"><a class="nav-link" href="music.html">MUSIC</a></li>
+          <li class="nav-item"><a class="nav-link" href="games.html">GAMES</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+        </ul>
+        <button id="darkModeBtn" class="ms-3 btn btn-sm btn-outline-light" onclick="toggleDarkMode()">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="collection-section container px-4 my-5">
+    <div class="section-header">
+      <h2 class="section-title">Visual Artifacts</h2>
+      <span class="section-sub">· PRESERVED MEDIA DISCS & COVER ART</span>
+    </div>
+    
+    <!-- Gallery Grid matching style.css layout perfectly -->
+    <div class="cards-grid mt-4">
+      
+      <div class="vault-card">
+        <div class="card-thumb" style="background: #e8ede0; height: 160px; font-size: 48px;">🎞️</div>
+        <div class="card-body-inner">
+          <div class="card-cat">ARCHIVE ITEM #091</div>
+          <h3 class="card-title text-dark">35mm Film Reel Container</h3>
+          <p class="card-meta">Circa 1940s aluminum storage casing.</p>
+        </div>
+      </div>
+
+      <div class="vault-card">
+        <div class="card-thumb" style="background: #e8e0d5; height: 160px; font-size: 48px;">📻</div>
+        <div class="card-body-inner">
+          <div class="card-cat">ARCHIVE ITEM #104</div>
+          <h3 class="card-title text-dark">Vintage Tube Radio Receiver</h3>
+          <p class="card-meta">Early tabletop vacuum tube audio system.</p>
+        </div>
+      </div>
+
+      <div class="vault-card">
+        <div class="card-thumb" style="background: #dde8e0; height: 160px; font-size: 48px;">🕹️</div>
+        <div class="card-body-inner">
+          <div class="card-cat">ARCHIVE ITEM #212</div>
+          <h3 class="card-title text-dark">Classic Arcade Control Panel</h3>
+          <p class="card-meta">Original 2-player microswitch joystick layout.</p>
+        </div>
+      </div>
+
+      <div class="vault-card">
+        <div class="card-thumb" style="background: #e5dde8; height: 160px; font-size: 48px;">📼</div>
+        <div class="card-body-inner">
+          <div class="card-cat">ARCHIVE ITEM #305</div>
+          <h3 class="card-title text-dark">Magnetic Tape Cassette Case</h3>
+          <p class="card-meta">Hi-Fi home recording formats from 1978.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">the retro vault · media archive</div>
+      <div class="footer-links">
+        <a href="about.html">ABOUT</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <div class="footer-copy">© 2026 The Retro Vault. All rights reserved.</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
