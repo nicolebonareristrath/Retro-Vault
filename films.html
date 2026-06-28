@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Films · The Retro Vault</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <span>EST. 1920 · THE FINEST COLLECTION OF CLASSIC MEDIA</span>
+    <span>NAIROBI, KENYA</span>
+  </div>
+
+  <nav class="navbar navbar-expand-lg main-nav">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand nav-logo" href="index.html">the retro <span>VAULT</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link active" href="films.html">FILMS</a></li>
+          <li class="nav-item"><a class="nav-link" href="music.html">MUSIC</a></li>
+          <li class="nav-item"><a class="nav-link" href="games.html">GAMES</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+        </ul>
+        <button id="darkModeBtn" class="ms-3 btn btn-sm btn-outline-light" onclick="toggleDarkMode()">走</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="collection-section container px-4 my-5">
+    <div class="section-header">
+      <h2 class="section-title">The Cinematic Archive</h2>
+      <span class="section-sub">· GOLDEN AGE ESSENTIALS</span>
+    </div>
+    
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-lg-4">
+        <div class="vault-card p-3">
+          <div class="card-thumb thumb-film">🎬</div>
+          <div class="card-cat mt-2">DRAMA · 1942</div>
+          <h3 class="card-title text-dark">Casablanca</h3>
+          <p class="card-meta">An undisputed masterpiece of wartime romance and cynical idealism. Directed by Michael Curtiz, starring Humphrey Bogart and Ingrid Bergman.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="vault-card p-3">
+          <div class="card-thumb thumb-film">🎬</div>
+          <div class="card-cat mt-2">CRIME · 1972</div>
+          <h3 class="card-title text-dark">The Godfather</h3>
+          <p class="card-meta">Francis Ford Coppola's epic chronicle of the Corleone family network. Universally regarded as one of the most influential films in cinema history.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="vault-card p-3">
+          <div class="card-thumb thumb-film">🎬</div>
+          <div class="card-cat mt-2">ROMANCE · 1961</div>
+          <h3 class="card-title text-dark">Breakfast at Tiffany's</h3>
+          <p class="card-meta">Blake Edwards' stylish adaptation of Truman Capote's novella, cementing Audrey Hepburn as a perpetual cultural and fashion icon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">the retro vault · media archive</div>
+      <div class="footer-links">
+        <a href="about.html">ABOUT</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <div class="footer-copy">© 2026 The Retro Vault. All rights reserved.</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
