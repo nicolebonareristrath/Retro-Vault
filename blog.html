@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog · The Retro Vault</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <span>EST. 1920 · THE FINEST COLLECTION OF CLASSIC MEDIA</span>
+    <span>NAIROBI, KENYA</span>
+  </div>
+
+  <nav class="navbar navbar-expand-lg main-nav">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand nav-logo" href="index.html">the retro <span>VAULT</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="films.html">FILMS</a></li>
+          <li class="nav-item"><a class="nav-link" href="music.html">MUSIC</a></li>
+          <li class="nav-item"><a class="nav-link" href="games.html">GAMES</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+        </ul>
+        <button id="darkModeBtn" class="ms-3 btn btn-sm btn-outline-light" onclick="toggleDarkMode()">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5" style="max-width: 800px;">
+    <div class="section-header mb-4">
+      <h2 class="section-title">Archival Notes</h2>
+      <span class="section-sub">· DISPATCHES FROM THE PAST</span>
+    </div>
+
+    <article class="mb-5 pb-4 border-bottom border-secondary-subtle">
+      <span class="text-uppercase tracking-wider text-muted small" style="font-size: 10px; letter-spacing: 2px;">June 24, 2026</span>
+      <h3 class="font-serif my-2" style="font-family: 'Cormorant Garamond', serif; font-size: 26px;">The Textures of 35mm Film</h3>
+      <p style="font-size: 14px; line-height: 1.8;">Digital capture offers precision, but lacks the natural variation inherent to analog emulsion. Exploring why modern film enthusiasts keep returning to chemical processing methods to extract visual warmth...</p>
+    </article>
+
+    <article class="mb-5 pb-4">
+      <span class="text-uppercase tracking-wider text-muted small" style="font-size: 10px; letter-spacing: 2px;">May 11, 2026</span>
+      <h3 class="font-serif my-2" style="font-family: 'Cormorant Garamond', serif; font-size: 26px;">Why 8-Bit Audio Rules Our Modern Brains</h3>
+      <p style="font-size: 14px; line-height: 1.8;">Early synth chips like the Nintendo RP2A03 were completely bounded by computational architecture constraints. We analyze how those strict limits generated iconic hooks that outlasted high-fidelity arrangements.</p>
+    </article>
+  </div>
+
+  <footer class="main-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">the retro vault · media archive</div>
+      <div class="footer-links">
+        <a href="about.html">ABOUT</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <div class="footer-copy">© 2026 The Retro Vault. All rights reserved.</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
